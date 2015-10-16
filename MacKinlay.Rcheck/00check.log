@@ -1,0 +1,128 @@
+* using log directory ‘/Users/hf/Dropbox (Cavorit)/Cavorit/akquiseundantraege/Akquise_2015Q3MiSu02/ProjektPackage/MacKinlay.Rcheck’
+* using R version 3.2.2 (2015-08-14)
+* using platform: x86_64-apple-darwin13.4.0 (64-bit)
+* using session charset: UTF-8
+* checking for file ‘MacKinlay/DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘MacKinlay’ version ‘0.1’
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... NOTE
+Found the following hidden files and directories:
+  .DS_Store
+  .RData
+  .Rhistory
+  man/.DS_Store
+  .Rproj.user
+These were most likely included in error. See section ‘Package
+structure’ in the ‘Writing R Extensions’ manual.
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘MacKinlay’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Malformed Description field: should contain one or more complete sentences.
+License components which are templates and need '+ file LICENSE':
+  MIT
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking dependencies in R code ... NOTE
+Package in Depends field not imported from: ‘xtable’
+  These packages need to be imported from (in the NAMESPACE file)
+  for when this namespace is loaded but not attached.
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+MacKinlayTable: no visible global function definition for ‘xtable’
+analysiereFirmen: no visible binding for global variable ‘ISIN’
+analysiereFirmen: no visible binding for global variable ‘KURS’
+loadSulzbachDaten: no visible binding for '<<-' assignment to ‘ISIN’
+loadSulzbachDaten: no visible binding for global variable ‘ISIN_A’
+loadSulzbachDaten: no visible binding for global variable ‘ISIN_B’
+loadSulzbachDaten: no visible binding for global variable ‘ISIN_C’
+loadSulzbachDaten: no visible binding for global variable ‘ISIN_AandB’
+loadSulzbachDaten: no visible binding for global variable ‘ISIN_AorB’
+loadSulzbachDaten: no visible binding for '<<-' assignment to ‘KURS’
+loadSulzbachDaten: no visible binding for global variable ‘KURS2’
+loadSulzbachDaten: no visible binding for global variable ‘KURS1’
+* checking Rd files ... WARNING
+EventPlot.Rd: non-ASCII input and no declared encoding
+aggregiereFirmen.Rd: non-ASCII input and no declared encoding
+analysiereFirmen.Rd: non-ASCII input and no declared encoding
+buildEventFrame.Rd: non-ASCII input and no declared encoding
+loadSulzbachDaten.Rd: non-ASCII input and no declared encoding
+plotFirma.Rd: non-ASCII input and no declared encoding
+plotMarkt.Rd: non-ASCII input and no declared encoding
+problems found in ‘EventPlot.Rd’, ‘aggregiereFirmen.Rd’, ‘analysiereFirmen.Rd’, ‘buildEventFrame.Rd’, ‘loadSulzbachDaten.Rd’, ‘plotFirma.Rd’, ‘plotMarkt.Rd’
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... WARNING
+Undocumented code objects:
+  ‘ISIN_A’ ‘ISIN_AandB’ ‘ISIN_AorB’ ‘ISIN_B’ ‘ISIN_C’ ‘KURS1’ ‘KURS2’
+Undocumented data sets:
+  ‘ISIN_A’ ‘ISIN_AandB’ ‘ISIN_AorB’ ‘ISIN_B’ ‘ISIN_C’ ‘KURS1’ ‘KURS2’
+All user-level objects in a package should have documentation entries.
+See chapter ‘Writing R documentation files’ in the ‘Writing R
+Extensions’ manual.
+* checking for code/documentation mismatches ... WARNING
+Codoc mismatches from documentation object 'aggregiereFirmen':
+aggregiereFirmen
+  Code: function(Firmenanalyse, alpha)
+  Docs: function(Firmenanalyse)
+  Argument names in code not in docs:
+    alpha
+
+* checking Rd \usage sections ... WARNING
+Undocumented arguments in documentation object 'analysiereFirmen'
+  ‘inProzent’
+
+Undocumented arguments in documentation object 'buildEventFrame'
+  ‘eventdate’ ‘Puffer’ ‘left’ ‘right’ ‘L_est’ ‘ISIN’ ‘KURS’
+Documented arguments not in \usage in documentation object 'buildEventFrame':
+  ‘Es’
+
+Undocumented arguments in documentation object 'calc_AR_it'
+  ‘Firma’ ‘estimationWindow’ ‘eventWindow’ ‘Market’
+Documented arguments not in \usage in documentation object 'calc_AR_it':
+  ‘Werden’
+
+Undocumented arguments in documentation object 'calc_varHat_epsilon_it'
+  ‘Firma’ ‘estimationWindow’ ‘eventWindow’ ‘Market’
+Documented arguments not in \usage in documentation object 'calc_varHat_epsilon_it':
+  ‘Wird’
+
+Undocumented arguments in documentation object 'plotFirma'
+  ‘Firmenanalyse’ ‘FirmaISIN’ ‘DDay’
+
+Undocumented arguments in documentation object 'plotMarkt'
+  ‘Marktanalyse’ ‘DDay’
+
+Functions with \usage entries need to have the appropriate \alias
+entries, and all their arguments documented.
+The \usage entries must correspond to syntactically valid R code.
+See chapter ‘Writing R documentation files’ in the ‘Writing R
+Extensions’ manual.
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of ‘data’ directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... WARNING
+  Warning: package needs dependence on R (>= 2.10)
+* checking examples ... NONE
+* checking PDF version of manual ... OK
+* DONE
+Status: 5 WARNINGs, 4 NOTEs

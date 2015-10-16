@@ -1,0 +1,12 @@
+EventPlot               EventPlot
+MacKinlay-package       MacKinlay
+MacKinlayTable          MacKinlayTable
+aggregiereFirmen        aggregiereFirmen
+analysiereFirmen        analysiereFirmen
+buildEventFrame         buildEventFrame
+calc_AR_it              calc_AR_it
+calc_varHat_epsilon_it
+                        calc_varHat_epsilon_it
+loadSulzbachDaten       loadSulbachDaten
+plotFirma               plotFirma
+plotMarkt               plotMarkt

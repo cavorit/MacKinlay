@@ -1,0 +1,17 @@
+* installing *source* package ‘MacKinlay’ ...
+** R
+** data
+*** moving datasets to lazyload DB
+** preparing package for lazy loading
+** help
+Warnung: /Users/hf/Dropbox (Cavorit)/Cavorit/akquiseundantraege/Akquise_2015Q3MiSu02/ProjektPackage/MacKinlay/man/analysiereFirmen.Rd:25: unknown macro '\item'
+Warnung: /Users/hf/Dropbox (Cavorit)/Cavorit/akquiseundantraege/Akquise_2015Q3MiSu02/ProjektPackage/MacKinlay/man/analysiereFirmen.Rd:27: unexpected section header '\value'
+Warnung: /Users/hf/Dropbox (Cavorit)/Cavorit/akquiseundantraege/Akquise_2015Q3MiSu02/ProjektPackage/MacKinlay/man/analysiereFirmen.Rd:30: unexpected section header '\description'
+Warnung: /Users/hf/Dropbox (Cavorit)/Cavorit/akquiseundantraege/Akquise_2015Q3MiSu02/ProjektPackage/MacKinlay/man/analysiereFirmen.Rd:33: unexpected section header '\details'
+Warnung: /Users/hf/Dropbox (Cavorit)/Cavorit/akquiseundantraege/Akquise_2015Q3MiSu02/ProjektPackage/MacKinlay/man/analysiereFirmen.Rd:36: unexpected section header '\author'
+Warnung: /Users/hf/Dropbox (Cavorit)/Cavorit/akquiseundantraege/Akquise_2015Q3MiSu02/ProjektPackage/MacKinlay/man/analysiereFirmen.Rd:40: unexpected END_OF_INPUT '
+'
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (MacKinlay)

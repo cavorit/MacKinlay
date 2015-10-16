@@ -1,0 +1,11 @@
+Package: MacKinlay
+Type: Package
+Title: Event-Analyse nach Mac Kinlay fuer Michael Sulzbach
+Version: 0.1
+Date: 2015-10-15
+Author: Harald Fiedler
+Maintainer: Harald Fiedler <harald.fiedler@cavorit.de>
+Description: Analysiert Aktienkurse fuer Event-Studien
+License: MIT
+LazyData: true
+Depends: xtable
