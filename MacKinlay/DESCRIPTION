@@ -8,4 +8,6 @@ Maintainer: Harald Fiedler <harald.fiedler@cavorit.de>
 Description: Analysiert Aktienkurse fuer Event-Studien
 License: MIT
 LazyData: true
-Depends: xtable
+Depends:
+    xtable
+RoxygenNote: 5.0.1

@@ -6,7 +6,7 @@
 #' @return Eine Liste mit Statistiken und Teststatistiken. AR_quer_t, varHat_AR_quer_t, CAR_quer, varHat_Car_quuer_t sowie zwei Werte für die Konfidenzbänder
 
 aggregiereFirmen <- function(Firmenanalyse, alpha){
-  # Firmenananlyse ist ein Pbjekt, das von analysiereFirmen() erzeugt wird.
+  # Firmenananlyse ist ein Objekt, das von analysiereFirmen() erzeugt wird.
   AR_it <- Firmenanalyse[[1]][[1]]
   varHat_epislon_i <- Firmenanalyse[[1]][[4]] 
   
