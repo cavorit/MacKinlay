@@ -14,6 +14,6 @@ loadSulzbachDaten <- function(Gruppe, inProzent){
   if (Gruppe=="AandB"){ISIN <<- ISIN_AandB}
   if (Gruppe=="AxorB"){ISIN <<- ISIN_AorB}  
   ifelse(inProzent, KURS <<- KURS2[, c(1:207, 209:586)], KURS <<- KURS1) # Firma 208 macht Probleme wegen fehlender Startwerte
-  rownames(KURS) <- 1:nrow(KURS)
+  #rownames(KURS) <- 1:nrow(KURS)
   return(NULL)
 }

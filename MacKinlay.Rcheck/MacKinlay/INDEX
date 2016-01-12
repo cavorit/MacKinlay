@@ -7,6 +7,9 @@ buildEventFrame         buildEventFrame
 calc_AR_it              calc_AR_it
 calc_varHat_epsilon_it
                         calc_varHat_epsilon_it
+fusioniereFirmenCARsMitMiSu03Daten
+                        fusioniereFirmenCARsMitMiSu03Daten
+lese2016Q1MiSu03Daten   lese2016Q1MiSu03Daten
 loadSulzbachDaten       loadSulbachDaten
 plotFirma               plotFirma
 plotMarkt               plotMarkt

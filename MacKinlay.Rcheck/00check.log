@@ -1,4 +1,4 @@
-* using log directory ‘/Users/hf/Dropbox (Cavorit)/Cavorit/akquiseundantraege/Akquise_2015Q3MiSu02/ProjektPackage/MacKinlay.Rcheck’
+* using log directory ‘/Users/hf/Dropbox (Cavorit)/Cavorit/AkquiseUndAntraege/Akquise_2016Q1MiSu03/ProjektPackage/MacKinlay.Rcheck’
 * using R version 3.2.2 (2015-08-14)
 * using platform: x86_64-apple-darwin13.4.0 (64-bit)
 * using session charset: UTF-8
@@ -12,10 +12,8 @@
 * checking for executable files ... OK
 * checking for hidden files and directories ... NOTE
 Found the following hidden files and directories:
-  .DS_Store
   .RData
   .Rhistory
-  man/.DS_Store
   .Rproj.user
 These were most likely included in error. See section ‘Package
 structure’ in the ‘Writing R Extensions’ manual.
@@ -32,7 +30,12 @@ License components which are templates and need '+ file LICENSE':
 * checking for left-over files ... OK
 * checking index information ... OK
 * checking package subdirectories ... OK
-* checking R files for non-ASCII characters ... OK
+* checking R files for non-ASCII characters ... WARNING
+Found the following file with non-ASCII characters:
+  lese2016Q1MiSuDaten.R
+Portable packages must use only ASCII characters in their R code,
+except perhaps in comments.
+Use \uxxxx escapes for other characters.
 * checking R files for syntax errors ... OK
 * checking whether the package can be loaded ... OK
 * checking whether the package can be loaded with stated dependencies ... OK
@@ -64,10 +67,12 @@ EventPlot.Rd: non-ASCII input and no declared encoding
 aggregiereFirmen.Rd: non-ASCII input and no declared encoding
 analysiereFirmen.Rd: non-ASCII input and no declared encoding
 buildEventFrame.Rd: non-ASCII input and no declared encoding
+fusioniereFirmenCARsMitMiSu03Daten.Rd: non-ASCII input and no declared encoding
+lese2016Q1MiSu03Daten.Rd: non-ASCII input and no declared encoding
 loadSulzbachDaten.Rd: non-ASCII input and no declared encoding
 plotFirma.Rd: non-ASCII input and no declared encoding
 plotMarkt.Rd: non-ASCII input and no declared encoding
-problems found in ‘EventPlot.Rd’, ‘aggregiereFirmen.Rd’, ‘analysiereFirmen.Rd’, ‘buildEventFrame.Rd’, ‘loadSulzbachDaten.Rd’, ‘plotFirma.Rd’, ‘plotMarkt.Rd’
+problems found in ‘EventPlot.Rd’, ‘aggregiereFirmen.Rd’, ‘analysiereFirmen.Rd’, ‘buildEventFrame.Rd’, ‘fusioniereFirmenCARsMitMiSu03Daten.Rd’, ‘lese2016Q1MiSu03Daten.Rd’, ‘loadSulzbachDaten.Rd’, ‘plotFirma.Rd’, ‘plotMarkt.Rd’
 * checking Rd metadata ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... WARNING
@@ -78,17 +83,10 @@ Undocumented data sets:
 All user-level objects in a package should have documentation entries.
 See chapter ‘Writing R documentation files’ in the ‘Writing R
 Extensions’ manual.
-* checking for code/documentation mismatches ... WARNING
-Codoc mismatches from documentation object 'aggregiereFirmen':
-aggregiereFirmen
-  Code: function(Firmenanalyse, alpha)
-  Docs: function(Firmenanalyse)
-  Argument names in code not in docs:
-    alpha
-
+* checking for code/documentation mismatches ... OK
 * checking Rd \usage sections ... WARNING
-Undocumented arguments in documentation object 'analysiereFirmen'
-  ‘inProzent’
+Undocumented arguments in documentation object 'aggregiereFirmen'
+  ‘alpha’
 
 Undocumented arguments in documentation object 'buildEventFrame'
   ‘eventdate’ ‘Puffer’ ‘left’ ‘right’ ‘L_est’ ‘ISIN’ ‘KURS’
@@ -104,6 +102,11 @@ Undocumented arguments in documentation object 'calc_varHat_epsilon_it'
   ‘Firma’ ‘estimationWindow’ ‘eventWindow’ ‘Market’
 Documented arguments not in \usage in documentation object 'calc_varHat_epsilon_it':
   ‘Wird’
+
+Undocumented arguments in documentation object 'fusioniereFirmenCARsMitMiSu03Daten'
+  ‘MiSu03Daten’
+Documented arguments not in \usage in documentation object 'fusioniereFirmenCARsMitMiSu03Daten':
+  ‘SU03Daten’
 
 Undocumented arguments in documentation object 'plotFirma'
   ‘Firmenanalyse’ ‘FirmaISIN’ ‘DDay’

@@ -7,7 +7,7 @@
 #' @param left gibt an, wie viele Tage vor dem Event das Event-Window beginnen soll.
 #' @param right gibt an, wie viele Tage nach dem Event das Event-Window beginnen soll. Übliche Windows sind [-5, 5], [-1,1], aber auch [-3, 3]
 #' @param L_est eine Zahl, die angibt, wie lange das Estimation-Window sein soll. Default ist 200.
-#' @param alpha Das Konfidenzniveau, default ist 1%
+#' @param alpha Das Konfidenzniveau, default ist 1 Prozent
 #' @param inProzent Boolean der Länge 1, das angibt, ob die Aktienkurse in prozentualen Veränderungen (TRUE) oder in absoluten Beträgen untersucht werden sollen.
 #' @title analysiereFirmen
 #' @return Eine Liste von zwei Listen. Die Liste AR_it enthält die AR_it, die Konfidenzgrenzen oben, die Konfidenzgrenzen unten und die Schätzer für die Residuenvarianz. Die zweite Liste das gleiche für die Kummulanten.

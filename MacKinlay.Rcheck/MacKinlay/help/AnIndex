@@ -5,6 +5,8 @@ buildEventFrame	buildEventFrame
 calc_AR_it	calc_AR_it
 calc_varHat_epsilon_it	calc_varHat_epsilon_it
 EventPlot	EventPlot
+fusioniereFirmenCARsMitMiSu03Daten	fusioniereFirmenCARsMitMiSu03Daten
+lese2016Q1MiSu03Daten	lese2016Q1MiSu03Daten
 loadSulzbachDaten	loadSulzbachDaten
 MacKinlayTable	MacKinlayTable
 plotFirma	plotFirma

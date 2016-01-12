@@ -7,13 +7,16 @@
 
 
 buildEventFrame <- function(eventdate, Puffer, left, right, L_est, ISIN, KURS){
-  Tau <- 1:nrow(KURS)-eventdate
+  Tau <- 1:nrow(KURS)-eventdate + 1 # +1 damit Tau mit Michaels Event-Indices gleichläuft
   estimationWindow <- rep(FALSE, times=nrow(KURS))
-  estimationWindow[(eventdate+left-L_est-Puffer):(eventdate+left-1-Puffer)] <- TRUE
+  estimationWindow[Tau < left - Puffer  & Tau > left - Puffer -1 - L_est] <- TRUE
   eventWindow <- rep(FALSE, times=nrow(KURS))
-  eventWindow[(eventdate+left):(eventdate+right)] <- TRUE
+  eventWindow[Tau>=left & Tau <=right] <- TRUE
   Market <- KURS$SXXP
   Firmen <- KURS[ , is.element(names(KURS), ISIN)  ]
   EventFrame <- data.frame(Tau, estimationWindow, eventWindow, Market, Firmen)
+  
   return(EventFrame)
 }
+
+

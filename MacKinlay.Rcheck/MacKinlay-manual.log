@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.18)  16 OCT 2015 02:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.18)  12 JAN 2016 10:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -688,8 +688,8 @@ LaTeX Font Info:    Try loading font information for T1+zi4 on input line 21.
 File: t1zi4.fd 2014/06/22 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 27.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 27.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 28.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 28.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
@@ -705,29 +705,26 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
 ) [1
 
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (44.7364pt too wide) in paragraph at lines 62--63
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
+)
+Overfull \hbox (44.7364pt too wide) in paragraph at lines 63--64
 []\T1/ptm/m/n/10 Eine Liste mit Statis-tiken und Test-statis-tiken. AR_quer_t, 
 varHat_AR_quer_t, CAR_quer, varHat_Car_quuer_t
  []
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
-)
-Overfull \hbox (4.56866pt too wide) in paragraph at lines 88--89
+) [2]
+Overfull \hbox (4.56866pt too wide) in paragraph at lines 93--94
 []\T1/ptm/m/n/10 gibt an, wie viele Tage nach dem Event das Event-Window be-gin
 -nen soll. Übliche
  []
 
-[2] (/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
-)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
 ) [3]
@@ -739,42 +736,51 @@ File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
+) [5]
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
 )
-Overfull \hbox (14.70798pt too wide) in paragraph at lines 246--247
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
+) [6]
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
+)
+Overfull \hbox (14.70798pt too wide) in paragraph at lines 307--308
 \T1/ptm/m/n/10 stat-tfindet, oder in re-laitiven Prozen-tän-derun-gen zum er-st
 en Tag des Event-Windows 
  []
 
-[5] (/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
-)
+) [7]
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
-) [6] (./Rd2.ind
-[7] [8
+) (./Rd2.ind
+[8] [9
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 328.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 328.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 389.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 389.
  (./Rd2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 328.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 328.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 389.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 389.
 Package rerunfilecheck Info: File `Rd2.out' has not changed.
-(rerunfilecheck)             Checksum: 3919389856C000BBA1DD3889C7B8CD0F;742.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 328.
+(rerunfilecheck)             Checksum: B4C0CA0A31012E347EC762A6E3DB9CFC;918.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 389.
  ) 
 Here is how much of TeX's memory you used:
- 6410 strings out of 493089
- 92588 string characters out of 6134842
- 171070 words of memory out of 5000000
- 9698 multiletter control sequences out of 15000+600000
+ 6436 strings out of 493089
+ 93192 string characters out of 6134842
+ 172070 words of memory out of 5000000
+ 9700 multiletter control sequences out of 15000+600000
  35928 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,5n,34p,442b,505s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,5n,34p,442b,507s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2015/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}</usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/l
@@ -783,10 +789,10 @@ xlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015
 /texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dis
 t/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
 pe1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (8 pages, 80018 bytes).
+Output written on Rd2.pdf (9 pages, 86288 bytes).
 PDF statistics:
- 223 PDF objects out of 1000 (max. 8388607)
- 204 compressed objects within 3 object streams
- 84 named destinations out of 1000 (max. 500000)
- 97 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 260 PDF objects out of 1000 (max. 8388607)
+ 240 compressed objects within 3 object streams
+ 104 named destinations out of 1000 (max. 500000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
