@@ -10,7 +10,8 @@ MacKinlayTable <- function(Marktanalyse, LaTeX=TRUE){
   Signifik <- ( (Marktanalyse$CAR_quer_t > Marktanalyse$critical_values_right_CAR_quer_t) | Marktanalyse$CAR_quer_t < Marktanalyse$critical_values_left_CAR_quer_t)
   DF <- data.frame("AR_quer_t" = Marktanalyse$AR_quer_t, 
                    "CAR_quer_t" = Marktanalyse$CAR_quer_t, 
-                   "Signifikanz-Test"= ifelse(Signifik, "*", " ")
+                   "Signifikanz-Test"= ifelse(Signifik, "*", " "),
+                   "p-value" = Marktanalyse$pv
   )
   rownames(DF) <- paste("Handelstag", rownames(DF))
   ifelse(LaTeX, return(xtable(DF, digits = 7)), return(DF))

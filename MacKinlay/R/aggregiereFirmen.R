@@ -27,12 +27,16 @@ aggregiereFirmen <- function(Firmenanalyse, alpha){
   critical_values_left_CAR_quer_t <-  qnorm(alpha, sd=sqrt(varHat_CAR_quer_t), mean=0) 
   critical_values_right_CAR_quer_t <-  qnorm(1-alpha, sd=sqrt(varHat_CAR_quer_t), mean=0) 
   
+  #p-values # Nachtrag vom 17.2.2016
+  pv <- round(pnorm(q = -abs(CAR_quer_t), mean=0, sd=sqrt(varHat_CAR_quer_t)), 3)
+  
   ergebnis <- list(AR_quer_t=AR_quer_t, 
                    varHat_AR_quer_t=varHat_AR_quer_t,
                    CAR_quer_t=CAR_quer_t,
                    varHat_CAR_quer_t = varHat_CAR_quer_t,
                    critical_values_left_CAR_quer_t=critical_values_left_CAR_quer_t,
-                   critical_values_right_CAR_quer_t=critical_values_right_CAR_quer_t)
+                   critical_values_right_CAR_quer_t=critical_values_right_CAR_quer_t, ## das letzet KOmma am 17.2. eingefügt
+                   pvalue=pv) # neu 17.2.2016)
   
   return(ergebnis)
 }
